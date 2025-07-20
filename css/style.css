@@ -137,3 +137,23 @@
 .footer a {
   color: white;
 }
+.square-link {
+  text-decoration: none;
+  color: inherit;
+}
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: #3f1ac4;
+  border: 2px solid #1ac4ab;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 1s ease, box-shadow 1s ease;
+  margin: 20 px auto;
+}
+.square:hover {
+  transform: scale(1.2);
+}
+  
