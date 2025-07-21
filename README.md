@@ -1,86 +1,67 @@
 
-# Multipage Responsive Blog Template
+# Hello, Minima! Theme - Get Started in 60 Seconds
 
-This is a multipage responsive blog template built using pure HTML, CSS, and JavaScript.
+Setup Jekyll with GitHub Pages in 60 seconds using Minima - the gem-packaged theme.
 
-## Table of Contents
-- [Introduction](#Introduction)
-- [Features](#features)
-- [Demo](#Demo)
-- [Usage](#usage)
-- [Customization](#customization)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [Acknowledgments](#Acknowledgments)
-- [Contact](#Contact)
-- [License](#license)
+### Step 1 - Create the Jekyll Configuration / Settings File
 
-## Introduction
+Add your site title e.g. Your Site Title and let's use the minima theme
 
-This is a multipage responsive blog template built using pure HTML, CSS, and JavaScript. It includes a home page, an about page, a contact page, and individual blog pages. Each blog page features a proper heading, related image, blog author name, and upload date. Users can search for specific blogs using the search option. The vector credit for the website's graphics goes to Vecteezy.
+`_config.yml`:
 
+```
+title: Your Site Title
 
-## Features
+theme: minima
+```
 
-- Home Page: A landing page that showcases featured blog posts and provides links to individual blog pages.
-- About Page: A page that provides information about the website and its purpose.
-- Contact Page: A contact form for users to get in touch with the website owner.
-- Individual Blog Pages: Separate pages for each blog post, including relevant information such as headings, images, author names, and upload dates.
-- Search Functionality: A search option to find specific blogs based on keywords.
-- Responsive Design: The template is built with responsiveness in mind, ensuring an optimal viewing experience on various devices.
+### Step 2 - Create the Index Page
 
-## Demo
-
-You can see a live demo of the website [here](https://byomkesh03.github.io/Responsive-Blog-Template/).
-
-## Usage
-
-To use this blog template, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/byomkesh03/Responsive-Blog-Template.git`
-2. Navigate to the project directory: `cd blog-template`
-3. Open the `index.html` file in your preferred web browser.
-
-## Customization
-
-Feel free to modify and customize the template according to your needs. Add your own blog posts, and images, or make any other desired changes to fit your requirements.
-
-## Installation
-
-There are no specific installation steps required for this template. Simply clone the repository and open the `index.html` file in a web browser to run the template locally.
-
-## Contributing
-
-If you want to contribute to this project, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/my-feature`
-3. Make your changes and commit them: `git commit -m 'Add some feature'`
-4. Push the changes to your forked repository: `git push origin feature/my-feature`
-5. Open a pull request in the original repository.
-
-Your contributions are highly appreciated! Feel free to improve existing features, add new features, fix bugs, or suggest enhancements.
-
-## Acknowledgments
-
-- Inspiration and guidance have been taken from the web development community For making this Multipage Responsive Blog Template Website.
-
-## Contact
-
-If you have any questions, suggestions, or feedback, feel free to contact me at byomkeshmahato03@gmail.com.
+Add your index (front) page with a page title e.g. Welcome and using the default layout (built into Mimina and ready-to-use "out-of-the-gem"):
 
 
-## License
+`index.md`:
 
-This project is licensed under the [MIT License](LICENSE).
-
+```
+---
+title: Welcome
+layout: default
 ---
 
-Vector Credits: [Vecteezy](https://www.vecteezy.com/)
+Hello, Minima!
+```
+
+That's it. Ready for serving.
+
+Go on GitHub in your repos **Settings** tab to the **GitHub Pages** sections and pick **Use the master branch** in **Select Source**.
+Save. Enjoy. Happy Jekylling!
+
+
+### Live Demo
+
+See a live demo @ [`henrythemes.github.io/hello-minima-theme` »](https://henrythemes.github.io/hello-minima-theme)
 
 
 
+### Bonus - Q: Can I Use my Own Styles / Design / Theme? A: Hello, Jekyll! Theme - Get Started in 60 Seconds, The Blank Page Edition
 
-* Click on the link to view the project:- https://byomkesh03.github.io/Responsive-Blog-Template/
+To start from scratch with no styles (that is, a blank page / site) see
+the [**Hello, Jekyll! Theme - Get Started in 60 Seconds**](https://github.com/henrythemes/hello-jekyll-theme) repo.
 
+
+### More Themes
+
+See the [Dr. Jekyll's Themes](https://drjekyllthemes.github.io) directory.
+
+
+## Meta
+
+#### License
+
+The Hello, Minima! theme is dedicated to the public domain.
+Use it as you please with no restrictions whatsoever.
+
+#### Questions? Comments?
+
+Post them to the [jekyll talk forum](http://talk.jekyllrb.com). Thanks!
 
