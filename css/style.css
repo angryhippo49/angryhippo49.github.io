@@ -142,10 +142,9 @@
   color: inherit;
 }
 .square {
-  width: 200px;
-  height: 200px;
-  background-color: #3f1ac4;
-  border: 2px solid #1ac4ab;
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -154,6 +153,6 @@
   margin: 20 px auto;
 }
 .square:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
   
